@@ -8,7 +8,7 @@ Thuật toán crt
 **Nếu không thõa dieu kien chỉ cần 2 shares bất kì sẽ có thể khôi phục**
 
 
-ví dụ điểm ảnh là 100, với 10 client và k = 3 là thì chỉ có 
+ví dụ điểm ảnh là 100, với 10 client và k = 3:
 - min_modulus ≥ secret_max^{1/k}:  min_modulus >= 100^(1/3) = 4.46 ~ 5
 - max_modulus < secret_max^{1/(k-1)}: max_modulus < 100^(1/2) = 10
   
