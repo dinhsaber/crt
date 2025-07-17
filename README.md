@@ -9,8 +9,8 @@ Thuật toán crt
 
 
 ví dụ điểm ảnh là 100, với 10 client và k = 3 là thì chỉ có 
-min_modulus ≥ secret_max^{1/k}:  min_modulus >= 100^(1/3) = 4.46 ~ 5
-max_modulus < secret_max^{1/(k-1)}: max_modulus < 100^(1/2) = 10 
+- min_modulus ≥ secret_max^{1/k}:  min_modulus >= 100^(1/3) = 4.46 ~ 5
+- max_modulus < secret_max^{1/(k-1)}: max_modulus < 100^(1/2) = 10 
 **--> modulu chỉ tồn tại trong khoảng [5,9] với mỗi số modulu tạo ra 1 share do đó chỉ có thể tồn tại tối đa 2 shares** 
 
 #### bỏ điều kiện Áp dụng phép xor trước khi dùng crt: 
